@@ -3,20 +3,9 @@ def reverse_each_word(sentence)
   new_array = sentence.split(" ")
   new_array.each do |word|
     word.reverse!
+    #reverse each word individually
   end
   new_array.join(" ")
-  
   #turn the array back into a string
   
-  
-  
-  
-  
-  #new_array = []
-  #new_array << sentence.split(" ")
-  #next_array = []
-  #new_array.each do |word|
-    #next_array << word.reverse
-  #end
-  #next_array
 end
